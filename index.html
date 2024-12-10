@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <style>
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0px;
+            left: 0px;
+            z-index: -1;
+            opacity: 1;
+            height: 100%;
+            width: 100%;
+            background: url(back.webp) no-repeat top center/cover;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        /* #box {
+            
+            justify-content: space-around;
+            line-height: 70px;
+        } */
+
+        /* #hours {
+            font-size: 100px;
+            font-weight: bolder; */
+
+
+        .cele {
+            justify-content: center;
+            margin-left: 400px;
+            margin-top: 40px;
+            font-family: "Poppins", sans-serif;
+            font-size: 35px;
+            color: rgb(252, 193, 46);
+            background: -webkit-linear-gradient(90deg, gold, white);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            font-weight: bolder;
+        }
+
+        .cel {
+            justify-content: center;
+            font-size: 70px;
+            color: rgb(252, 193, 46);
+            margin-left: 400px;
+            font-weight: bolder;
+            background: -webkit-linear-gradient(90deg, gold, white);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+        }
+
+        #edate {
+            color: rgb(252, 193, 46);
+            background: -webkit-linear-gradient(90deg, gold, white);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            justify-content: center;
+            margin-left: 755px;
+            font-weight: bolder;
+            font-size: 35px;
+
+        }
+
+        #days,
+        #min,
+        #sec,
+        #hours {
+            margin-right: 100px;
+            height: 80px;
+            width: 90px;
+            border: 4px solid rgb(252, 207, 94);
+            color: rgb(252, 193, 46);
+            font-size: 70px;
+            font-weight: bolder;
+            background: -webkit-linear-gradient(90deg, gold, white);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            box-shadow: 3px 3px 10px rgb(252, 207, 94);
+            text-align: center;
+        }
+#box2{margin-left: 500px;position: absolute;
+            top: 400px;
+            color: rgb(252, 193, 46);
+            font-size: 20px;
+            font-weight: bolder;
+            background: -webkit-linear-gradient(90deg, gold, white);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+            
+            
+        }
+#ss{margin-left: 110px;margin-top: 10px;}
+#mm{margin-left: 120px;margin-top: 10px;}
+#hh{margin-left: 150px;margin-top: 10px;}
+#dd{margin-left: 10px;margin-top: 10px;}
+        
+        
+
+        
+        
+
+        #box , #box2{
+            display: flex;
+            margin-left: 650px;
+            margin-top: 90px;
+        }
+        #tech{font-size: 26px;
+           
+            padding-bottom: 5px;
+        
+        background: -webkit-linear-gradient(90deg, gold, white);
+        /* -webkit-text-fill-color:transparent;
+            -webkit-background-clip: text;
+        border: 2px solid gold;
+         */
+
+    /* color: rgb(10, 171, 79); */
+font-weight: bolder;
+height:45px;width: 500px;
+margin-left:750px;
+margin-top: 130px;
+
+
+border-radius: 30px;text-align: center;padding-top: 18px;}
+    </style>
+</head>
+
+<body>
+    <header>
+ 
+        <div>
+
+
+            <h1 class="cele"> COUNTDOWN TO THE JOYOUS CELEBRATION OF</h1>
+            <h1 class="cel"> EID UL FITR</h1>
+            <div id="edate">
+                <h1> 11 - 04 - 2024 ,12-00-00 A.M </h1>
+            </div>
+
+        </div>
+
+        <div id="box">
+            <!-- <div id="first">
+         -->
+            <div id="days">
+                <h1> 0</h1>
+            </div>
+
+            <div id="hours">
+                <h1>0</h1>
+            </div>
+            <!-- </div> -->
+            <!-- <div id="dh"> <div id="dd">DAYS</div><div id="hh">HOURS</div></div> -->
+            <!-- <div id="second"> -->
+
+            <div id="min">
+
+                <h1>0</h1>
+            </div>
+
+            <div id="sec">
+                <h1>0</h1>
+            </div>
+
+        </div>
+        <div id="box2">
+            <div id="dd">DAYS</div>
+            <div id="hh">H0URS</div>
+            <div id="mm">MINUTES</div>
+            <div id="ss">SECONDS</div>
+        </div>
+        <div id="tech"> This template is created by Sabiha Sultana</div>
+    </header>
+   
+    <script src="script.js"></script>
+</body>
+
+</html>
